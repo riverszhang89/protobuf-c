@@ -1,0 +1,4 @@
+cmake -DCMAKE_BUILD_TYPE=Release -DProtobuf_LIBRARIES="C:\\Program Files (x86)\\protobuf\\lib" -G "NMake Makefiles" -DProtobuf_INCLUDE_DIR="C:\\Program Files (x86)\\protobuf\\include" ../.. 
+
+cmake -G "NMake Makefiles" -DCMAKE_BUILD_TYPE=Release -Dprotobuf_BUILD_TESTS=OFF ../
+cmake -DCMAKE_BUILD_TYPE=Release  -DMSVC_STATIC_BUILD=1 -DCMAKE_INSTALL_PREFIX=C:\Program Files (x86) .. -G"NMake Makefiles"

@@ -78,6 +78,12 @@ namespace protobuf {
 namespace compiler {
 namespace c {
 
+using std::back_insert_iterator;
+using std::map;
+using std::set;
+using std::string;
+using std::vector;
+
 class ServiceGenerator {
  public:
   // See generator.cc for the meaning of dllexport_decl.
